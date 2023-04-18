@@ -1,0 +1,22 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = false
+max_line_length = 120
+tab_width = 4
+ij_continuation_indent_size = 8
+ij_formatter_off_tag = @formatter:off
+ij_formatter_on_tag = @formatter:on
+ij_formatter_tags_enabled = false
+ij_smart_tabs = false
+ij_visual_guides = none
+ij_wrap_on_typing = false
+
+
+CLIENT_ID = "27a49912ef9d4cefb4450983fd28627f"
+CLIENT_SECRET = "ce941e2354c24ff293baa0ddfe1f40af"
+REDIRECT_URI = "http://localhost:8080/callback"
