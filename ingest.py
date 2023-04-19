@@ -87,7 +87,7 @@ def get_top_songs_year(year, token, total = 200):
     return tracks[:total]
 
 
-start_year = 1920
+start_year = 2021
 end_year = 2021
 
 top_songs_by_year = {}
@@ -100,8 +100,9 @@ for year in range(start_year, end_year + 1):
 # Example: Print the top 5 songs for each year
 for year, tracks in top_songs_by_year.items():
     print(f"\nTop 5 songs in {year}:")
-    for i, track in enumerate(tracks[:5]):
-        print(f"{i + 1}. {track['name']} by {track['artists'][0]['name']}")
+    print(tracks[:1])
+    # for i, track in enumerate(tracks[:5]):
+    #     print(f"{i + 1}. {track['name']} by {track['artists'][0]['name']}")
 
 # print the length of top_songs_by_year
 
